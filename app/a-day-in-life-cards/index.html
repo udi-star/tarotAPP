@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>A Day in Life Cards</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#FFC107">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <div id="cover-screen" class="view full-screen">
+            <div class="cover-left">
+                <img src="assets/cards/logo.webp" class="pwa-logo" alt="Logo">
+                <h1 class="cover-title">A Day in Life Cards</h1>
+                <button id="start-journey-btn" class="mystic-btn" data-t="start"></button>
+            </div>
+            <div class="cover-right"><img src="assets/cards/cover.webp" alt="Cover" class="cover-image"></div>
+        </div>
+        <div id="main-content" class="hidden">
+            <header>
+                <div class="lang-picker">
+                    <button id="lang-toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></button>
+                    <div id="lang-dropdown" class="hidden">
+                        <button data-lang="en">English</button>
+                        <button data-lang="es">Español</button>
+                        <button data-lang="de">Deutsch</button>
+                        <button data-lang="it">Italiano</button>
+                        <button data-lang="fr">Français</button>
+                    </div>
+                </div>
+                <div class="header-main">
+                    <img src="assets/cards/logo.webp" class="pwa-logo" alt="Logo">
+                    <h1>A Day in Life Cards</h1>
+                </div>
+                <div class="share-trigger">
+                    <button id="share-btn" class="icon-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg></button>
+                </div>
+            </header>
+            <main>
+                <div id="deck-view" class="view">
+                    <div class="deck-wrapper">
+                        <div class="deck-container" id="draw-trigger">
+                            <img src="assets/cards/back.webp" alt="Back" class="deck-back-img">
+                            <div class="deck-glow"></div>
+                        </div>
+                        <p class="instruction" data-t="instruction"></p>
+                    </div>
+                    <div class="spread-grid">
+                        <button class="spread-btn" data-type="single" data-t="spreads.single"></button>
+                        <button class="spread-btn" data-type="three_ppf" data-t="spreads.three_ppf"></button>
+                        <button class="spread-btn" data-type="three_sao" data-t="spreads.three_sao"></button>
+                        <button class="spread-btn" data-type="relationship" data-t="spreads.relationship"></button>
+                        <button class="spread-btn" data-type="love" data-t="spreads.love"></button>
+                        <button class="spread-btn" data-type="decision" data-t="spreads.decision"></button>
+                        <button class="spread-btn" data-type="career" data-t="spreads.career"></button>
+                        <button class="spread-btn" data-type="spiritual" data-t="spreads.spiritual"></button>
+                        <button class="spread-btn" data-type="chakra" data-t="spreads.chakra"></button>
+                        <button class="spread-btn" data-type="horseshoe" data-t="spreads.horseshoe"></button>
+                        <button class="spread-btn" data-type="celtic" data-t="spreads.celtic"></button>
+                        <button class="spread-btn" data-type="year" data-t="spreads.year"></button>
+                    </div>
+                </div>
+                <div id="reading-view" class="view hidden">
+                    <h2 id="reading-title" class="mystic-title"></h2>
+                    <div id="cards-spread" class="spread-layout"></div>
+                    <div class="reading-controls"><button id="reset-btn" class="mystic-btn" data-t="newReading"></button></div>
+                </div>
+            </main>
+            <footer class="pwa-footer">
+                <p>Digital Sanctuary: <a href="https://udi-star.github.io/tarotAPP/app/a-day-in-life-cards/" target="_blank">https://udi-star.github.io/tarotAPP/app/a-day-in-life-cards/</a></p>
+                <p>&copy; IBIZA TAROT&trade;. All rights reserved.</p>
+                <p>No reproduction or commercial use permitted.</p>
+                <p>More magic: <a href="https://ibizatarot.com" target="_blank">ibizatarot.com</a></p>
+            </footer>
+        </div>
+        <div id="modal" class="modal hidden">
+            <div class="modal-content"><button class="close-modal">&times;</button><div id="modal-body"></div></div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
