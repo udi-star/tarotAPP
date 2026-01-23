@@ -2,4 +2,4 @@
 
 This repository hosts multiple PWA Oracle Decks.
 
-Latest Manifestation: [Alpine Vibes Tarot](https://udi-star.github.io/tarotAPP/app/alpine-vibes-tarot/)
+Latest Manifestation: [Blessed by the moon ](https://udi-star.github.io/tarotAPP/app/blessed-by-the-moon/)
