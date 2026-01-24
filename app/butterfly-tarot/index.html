@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Butterfly Tarot </title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#f399ff">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/cards/logo.webp">
+</head>
+<body>
+    <div id="app">
+        <div id="cover-screen" class="view full-screen">
+            <div class="cover-content">
+                <img src="assets/cards/logo.webp" class="pwa-logo" alt="Logo">
+                <h1 class="cover-title">Butterfly Tarot </h1>
+                <button id="start-journey-btn" class="mystic-btn" data-t="start">Enter Sanctuary</button>
+            </div>
+            <div class="cover-bg"><img src="assets/cards/cover.webp" alt="Cover"></div>
+        </div>
+        <div id="main-content" class="hidden">
+            <header>
+                <div class="header-side">
+                    <button id="lang-toggle" class="icon-btn">🌍</button>
+                    <div id="lang-dropdown" class="hidden dropdown-menu">
+                        <button data-lang="en">English</button>
+                        <button data-lang="es">Español</button>
+                        <button data-lang="de">Deutsch</button>
+                        <button data-lang="it">Italiano</button>
+                        <button data-lang="fr">Français</button>
+                    </div>
+                </div>
+                <div class="header-main" id="home-btn">
+                    <h1>Butterfly Tarot </h1>
+                </div>
+                <div class="header-side">
+                    <button id="share-btn" class="icon-btn">📤</button>
+                </div>
+            </header>
+            <main>
+                <div id="deck-view" class="view">
+                    <div class="deck-area">
+                        <div class="deck-physical" id="draw-trigger">
+                            <img src="assets/cards/back.webp" alt="Back">
+                            <div class="glow-ring"></div>
+                        </div>
+                        <p class="instruction" data-t="instruction">Touch the deck to draw</p>
+                    </div>
+                    <div class="spread-picker">
+                        <button class="spread-btn" data-type="single" data-t="spreads.single">Single Card</button>
+                        <button class="spread-btn" data-type="three_ppf" data-t="spreads.three_ppf">3 Cards (Timeline)</button>
+                    </div>
+                </div>
+                <div id="reading-view" class="view hidden">
+                    <div id="cards-spread" class="spread-layout"></div>
+                    <div class="controls"><button id="reset-btn" class="mystic-btn" data-t="newReading">Clear Spread</button></div>
+                </div>
+            </main>
+        </div>
+        <div id="modal" class="modal hidden">
+            <div class="modal-content">
+                <button id="close-modal" class="close-btn">&times;</button>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
