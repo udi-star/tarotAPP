@@ -1,0 +1,44 @@
+
+:root { --amber: #dd9eff; --bg: #0a0a0c; }
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+body { margin: 0; background: var(--bg); color: #fff; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+h1, h2, .mystic-btn { font-family: 'Cinzel', serif; text-transform: uppercase; letter-spacing: 0.15em; }
+.hidden { display: none !important; }
+.view { min-height: 100vh; display: flex; flex-direction: column; }
+.full-screen { height: 100vh; position: relative; overflow: hidden; }
+
+/* Cover */
+.cover-content { position: relative; z-index: 10; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 2rem; text-align: center; background: linear-gradient(to right, rgba(0,0,0,0.8), transparent); width: 50%; }
+.cover-bg { position: absolute; top: 0; right: 0; width: 70%; height: 100%; z-index: 1; }
+.cover-bg img { width: 100%; height: 100%; object-fit: cover; }
+.pwa-logo { width: 120px; margin-bottom: 2rem; filter: drop-shadow(0 0 20px var(--amber)); }
+.cover-title { font-size: 3rem; color: var(--amber); margin-bottom: 3rem; }
+
+/* Main App */
+header { display: flex; justify-content: space-between; align-items: center; padding: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1); background: rgba(0,0,0,0.5); backdrop-filter: blur(10px); position: sticky; top: 0; z-index: 100; }
+header h1 { font-size: 1rem; margin: 0; color: var(--amber); }
+.icon-btn { background: none; border: none; font-size: 1.5rem; cursor: pointer; padding: 0.5rem; }
+
+/* Deck Interaction */
+.deck-area { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 4rem 2rem; }
+.deck-physical { width: 200px; aspect-ratio: 2/3; position: relative; cursor: pointer; transition: transform 0.3s; }
+.deck-physical:hover { transform: scale(1.05); }
+.deck-physical img { width: 100%; height: 100%; border-radius: 12px; border: 2px solid var(--amber); box-shadow: 0 0 40px rgba(0,0,0,0.8); }
+.glow-ring { position: absolute; inset: -20px; border: 2px solid var(--amber); border-radius: 50%; opacity: 0.1; animation: pulse 2s infinite; }
+@keyframes pulse { 0% { transform: scale(0.8); opacity: 0.3; } 100% { transform: scale(1.2); opacity: 0; } }
+.instruction { margin-top: 2rem; opacity: 0.5; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.2em; }
+
+/* Modal */
+.modal { position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 1000; display: flex; align-items: center; justify-content: center; padding: 2rem; }
+.modal-content { background: #111; border: 1px solid var(--amber); border-radius: 2rem; max-width: 500px; width: 100%; position: relative; padding: 3rem; overflow-y: auto; max-height: 90vh; }
+.close-btn { position: absolute; top: 1rem; right: 1rem; font-size: 2rem; color: var(--amber); background: none; border: none; cursor: pointer; }
+
+/* Buttons */
+.mystic-btn { background: var(--amber); color: #000; border: none; padding: 1.2rem 3rem; border-radius: 0.5rem; font-weight: bold; cursor: pointer; transition: 0.3s; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+.mystic-btn:hover { filter: brightness(1.2); transform: translateY(-2px); }
+
+@media (max-width: 768px) {
+  .cover-content { width: 100%; background: linear-gradient(to top, rgba(0,0,0,1) 40%, transparent); }
+  .cover-bg { width: 100%; height: 60%; top: 0; right: 0; }
+  .cover-title { font-size: 2rem; }
+}

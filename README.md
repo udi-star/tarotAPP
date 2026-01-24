@@ -2,4 +2,4 @@
 
 This repository hosts multiple PWA Oracle Decks.
 
-Latest Manifestation: [Blessed by the moon ](https://udi-star.github.io/tarotAPP/app/blessed-by-the-moon/)
+Latest Manifestation: [Arcana PWA Studio](https://udi-star.github.io/tarotAPP/app/arcana-studio/)
