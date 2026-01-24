@@ -2,4 +2,4 @@
 
 This repository hosts multiple PWA Oracle Decks.
 
-Latest Manifestation: [Butterfly Tarot ](https://udi-star.github.io/tarotAPP/app/butterfly-tarot/)
+Latest Manifestation: [cycle of radiance Tarot](https://udi-star.github.io/tarotAPP/app/cycle-of-radiance-tarot/)
