@@ -2,14 +2,16 @@
   "name": "Butterfly Tarot ",
   "short_name": "Oracle",
   "start_url": "index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#0a0a0c",
-  "theme_color": "#f399ff",
+  "theme_color": "#f78aff",
   "icons": [
     {
       "src": "assets/cards/logo.webp",
       "sizes": "512x512",
-      "type": "image/webp"
+      "type": "image/webp",
+      "purpose": "any maskable"
     }
   ]
 }
