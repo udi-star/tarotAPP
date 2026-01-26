@@ -1,0 +1,17 @@
+{
+  "name": "Tarot of Ganesha",
+  "short_name": "Oracle",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a0a0c",
+  "theme_color": "#00ff91",
+  "icons": [
+    {
+      "src": "assets/cards/logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+}
