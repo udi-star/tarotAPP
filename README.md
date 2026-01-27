@@ -2,4 +2,4 @@
 
 This repository hosts multiple PWA Oracle Decks.
 
-Latest Manifestation: [Twisted Shadow Tarot ](https://udi-star.github.io/tarotAPP/app/twisted-shadow-tarot/)
+Latest Manifestation: [Painted Dreams Tarot](https://udi-star.github.io/tarotAPP/app/painted-dreams-tarot/)
