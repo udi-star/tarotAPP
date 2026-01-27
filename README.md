@@ -2,4 +2,4 @@
 
 This repository hosts multiple PWA Oracle Decks.
 
-Latest Manifestation: [Arcana Path Studio](https://udi-star.github.io/tarotAPP/app/arcana-studio/)
+Latest Manifestation: [Wing of the Divine ](https://udi-star.github.io/tarotAPP/app/wing-of-the-divine/)
