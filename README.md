@@ -2,4 +2,4 @@
 
 This repository hosts multiple PWA Oracle Decks.
 
-Latest Manifestation: [Tarot of Ganesha](https://udi-star.github.io/tarotAPP/app/tarot-of-ganesha/)
+Latest Manifestation: [Golden Dreams Tarot](https://udi-star.github.io/tarotAPP/app/golden-dreams-tarot/)
