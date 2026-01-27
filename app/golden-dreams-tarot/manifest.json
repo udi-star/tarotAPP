@@ -1,11 +1,11 @@
 {
-  "name": "Golden Dreams Tarot",
+  "name": "Golden Dreams Tarot ",
   "short_name": "Oracle",
   "start_url": "index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#0a0a0c",
-  "theme_color": "#FFC107",
+  "theme_color": "#ffc2df",
   "icons": [
     {
       "src": "assets/cards/logo.webp",
