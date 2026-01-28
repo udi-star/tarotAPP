@@ -2,4 +2,4 @@
 
 This repository hosts multiple PWA Oracle Decks.
 
-Latest Manifestation: [Native Dreams Tarot ](https://udi-star.github.io/tarotAPP/app/native-dreams-tarot/)
+Latest Manifestation: [The Gloden Dawn Tarot ](https://udi-star.github.io/tarotAPP/app/the-gloden-dawn-tarot/)

@@ -1,0 +1,10 @@
+{
+  "name": "The Gloden Dawn Tarot ",
+  "short_name": "Oracle",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a0a0c",
+  "theme_color": "#f4d371",
+  "icons": []
+}
