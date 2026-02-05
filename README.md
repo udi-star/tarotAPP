@@ -2,4 +2,4 @@
 
 This repository hosts multiple PWA Oracle Decks.
 
-Latest Manifestation: [Arcana Path Studio](https://udi-star.github.io/tarotAPP/app/my-oracle/)
+Latest Manifestation: [Ibiza Eclipse Tarot ](https://udi-star.github.io/tarotAPP/app/ibiza-eclipse-tarot/)
