@@ -1,11 +1,11 @@
 {
-  "name": "Arcana Path Studio",
-  "short_name": "Arcana",
+  "name": "Arcana PWA Studio",
+  "short_name": "Oracle",
   "start_url": "index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#0a0a0c",
-  "theme_color": "#FFC107",
+  "theme_color": "#fddf86",
   "icons": [
     {
       "src": "assets/cards/logo.webp",
