@@ -1,8 +1,8 @@
 
 :root {
-  --theme-color: #fddf86;
+  --theme-color: #FFC107;
   --bg-color: #0a0a0c;
-  --accent-glow: #fddf8622;
+  --accent-glow: #FFC10722;
 }
 body { margin:0; padding:0; font-family:'Inter',sans-serif; background:var(--bg-color); color:#fff; overflow-x:hidden; }
 .hidden { display:none!important; }
