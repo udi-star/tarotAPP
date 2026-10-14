@@ -2,4 +2,4 @@
 
 This repository hosts multiple PWA Oracle Decks.
 
-Latest Manifestation: [Arcana PWA Studio](https://udi-star.github.io/tarotAPP/app/arcana-studio/)
+Latest Manifestation: [Tarot Side of The Moon](https://udi-star.github.io/tarotAPP/app/tarot-side-of-the-moon/)
